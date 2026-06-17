@@ -38,6 +38,10 @@ app.get("/api/health", (req, res) => {
   res.json({ status: "ok", timestamp: new Date().toISOString() });
 });
 
+app.get('/',(req,res)=>{
+  res.send("server is running")
+})
+
 // API routes
 app.use("/api/auth", authRoutes);
 app.use("/api/uploads", uploadRoutes);
