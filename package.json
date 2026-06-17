@@ -1,0 +1,12 @@
+{
+  "name": "tripai",
+  "version": "1.0.0",
+  "description": "AI Travel Itinerary Generator — MERN Stack",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "build": "cd client && npm run build"
+  },
+  "private": true
+}
